@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <title>Ivander | Portofolio</title>
+  </head>
+  <body class="bg-[#e5e5e5]">
+    <header class="flex justify-center inset-x-0 h-fit pt-4 fixed top-0 z-50">
+      <div
+        class="relative flex bg-white/60 backdrop-blur-md text-black h-12 md:h-15 items-center justify-between border border-black w-[95%] xl:w-310 rounded-full lg:rounded-4xl px-5 md:px-0 shadow-xs"
+      >
+        <h1 class="text-lg md:text-3xl md:pl-9 whitespace-nowrap">
+          My Portofolio
+        </h1>
+        <button id="hamburger" class="block md:hidden focus:outline-none">
+          <div class="w-6 h-0.5 bg-black mb-1.5 transition-all"></div>
+          <div class="w-6 h-0.5 bg-black mb-1.5 transition-all"></div>
+          <div class="w-6 h-0.5 bg-black transition-all"></div>
+        </button>
+        <ul
+          class="hidden md:flex gap-4 md:gap-6 ml-auto text-sm md:text-lg pr-10 items-center cursor-pointer"
+        >
+          <li
+            class="border-b-2 border-transparent hover:border-black transition-all duration-300"
+          >
+            <a href="#home">Home</a>
+          </li>
+          <li
+            class="border-b-2 border-transparent hover:border-black transition-all duration-300"
+          >
+            <a href="#about">About</a>
+          </li>
+          <li
+            class="border-b-2 border-transparent hover:border-black transition-all duration-300"
+          >
+            <a href="#hard_skill">Hard Skill</a>
+          </li>
+          <li
+            class="border-b-2 border-transparent hover:border-black transition-all duration-300"
+          >
+            <a href="#soft_skill">Soft Skill</a>
+          </li>
+          <li
+            class="border-b-2 border-transparent hover:border-black transition-all duration-300"
+          >
+            <a href="#project">Project</a>
+          </li>
+          <li
+            class="border-b-2 border-transparent hover:border-black transition-all duration-300"
+          >
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div
+          id="mobile-menu"
+          class="hidden absolute top-16 right-0 w-40 bg-white/95 backdrop-blur-md border border-black rounded-2xl shadow-lg md:hidden overflow-hidden"
+        >
+          <ul
+            class="flex flex-col text-left text-black py-4 text-base font-medium"
+          >
+            <li>
+              <a
+                href="#home"
+                class="block w-full px-6 py-2 hover:bg-gray-100 hover:text-blue-600 transition-colors"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="block w-full px-6 py-2 hover:bg-gray-100 hover:text-blue-600 transition-colors"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#hard_skill"
+                class="block w-full px-6 py-2 hover:bg-gray-100 hover:text-blue-600 transition-colors"
+                >Hard Skill</a
+              >
+            </li>
+            <li>
+              <a
+                href="#soft_skill"
+                class="block w-full px-6 py-2 hover:bg-gray-100 hover:text-blue-600 transition-colors"
+                >Soft Skill</a
+              >
+            </li>
+            <li>
+              <a
+                href="#project"
+                class="block w-full px-6 py-2 hover:bg-gray-100 hover:text-blue-600 transition-colors"
+                >Project</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="block w-full px-6 py-2 hover:bg-gray-100 hover:text-blue-600 transition-colors"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="px-6 md:px-12 lg:px-23">
+      <section
+        id="home"
+        class="min-h-screen flex flex-col pt-24 md:pt-28 lg:pt-32 pb-12"
+      >
+        <div>
+          <div class="flex justify-between items-center w-full">
+            <h1 class="text-sm sm:text-lg md:text-xl font-medium">
+              Mahendra Ivander
+            </h1>
+            <h1 class="text-sm sm:text-lg md:text-xl font-medium text-right">
+              Portofolio Pribadi
+            </h1>
+          </div>
+        </div>
+        <div
+          class="grow flex flex-col justify-center items-center text-center py-10"
+        >
+          <h1
+            class="text-5xl font-semibold sm:text-7xl md:text-8xl lg:text-[11rem] tracking-tight"
+          >
+            PORTOFOLIO
+          </h1>
+          <h1
+            class="text-lg sm:text-xl md:text-2xl lg:text-3xl mt-4 lg:mt-2 text-gray-700"
+          >
+            Mengenal Profil, Pengalaman, dan Karya Saya
+          </h1>
+        </div>
+        <div>
+          <div
+            class="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-0 w-full"
+          >
+            <a
+              href="https://github.com/undellzy"
+              target="_blank"
+              class="text-base md:text-lg text-blue-700 border-b-2 border-transparent hover:border-blue-700 transition-all duration-300"
+              >github.com/undellzy</a
+            >
+            <a
+              href="#project"
+              class="text-base md:text-lg py-2 px-5 md:py-1 md:px-3 rounded-3xl border border-black hover:bg-black hover:text-white transition-all duration-300"
+              >Project Saya!</a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="about" class="py-16 md:py-24">
+        <div class="max-w-6xl mx-auto">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center"
+          >
+            <div class="text-center md:text-left order-2 md:order-1">
+              <span
+                class="text-xs md:text-sm font-semibold tracking-widest text-gray-500 uppercase"
+              >
+                About Me
+              </span>
+              <h2
+                class="mt-1 md:mt-3 text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900 leading-tight"
+              >
+                HALO SEMUA, AKU MAHENDRA IVANDER
+              </h2>
+              <p
+                class="mt-2 md:mt-4 text-base md:text-lg text-gray-700 leading-relaxed text-justify sm:text-left"
+              >
+                Saya seorang pengembang web pemula yang memiliki ketertarikan
+                besar pada dunia Front-End Development dan UI Design. Saya
+                senang mengeksplorasi teknologi baru, mengasah kemampuan koding,
+                serta membangun proyek web yang menarik dan memberikan
+                pengalaman pengguna yang baik.
+              </p>
+            </div>
+            <div class="flex justify-center md:justify-end order-1 md:order-2">
+              <img
+                src="./assets/img/foto_formal.jpeg"
+                alt="Mahendra Ivander"
+                class="w-3/4 sm:w-2/3 md:w-full max-w-sm rounded-2xl shadow-xl object-cover aspect-4/5"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="hard_skill" class="py-16 md:py-24">
+        <div class="max-w-3xl">
+          <span
+            class="text-xs md:text-sm font-semibold tracking-widest text-gray-500 uppercase"
+            >keahlian teknis</span
+          >
+          <h1
+            class="uppercase mt-1 md:mt-3 text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900 leading-tight"
+          >
+            Hard Skill
+          </h1>
+          <p
+            class="mt-2 md:mt-4 text-base md:text-lg text-gray-700 leading-relaxed text-justify sm:text-left"
+          >
+            Saya berfokus pada pengembangan Front-End dengan keahlian utama
+            merancang antarmuka website yang responsif dan estetik. Berbekal
+            penguasaan HTML, CSS, JavaScript, dan Tailwind CSS, saya siap
+            menciptakan pengalaman pengguna (UX) yang maksimal.
+          </p>
+        </div>
+        <div class="flex gap-8 mt-5">
+          <div class="bg-gray-300/40 w-100 h-70 rounded-xl px-6 shadow-xs">
+            <img
+              src="./assets/img/ux-design.png"
+              alt=""
+              class="w-15 h-15 mt-4"
+            />
+            <h2 class="text-lg font-semibold mt-3">UI/UX Design</h2>
+            <p class="text-base mt-3">
+              Merancang purwarupa (prototype) dan desain antarmuka aplikasi atau
+              website menggunakan Figma yang estetik, intuitif, dan berpusat
+              pada pengguna.
+            </p>
+          </div>
+          <div class="bg-gray-300/40 w-100 h-70 rounded-xl px-6 shadow-xs">
+            <img
+              src="./assets/img/programming.png"
+              alt=""
+              class="w-15 h-15 mt-4"
+            />
+            <h2 class="text-lg font-semibold mt-3">Front-End Dev</h2>
+            <p class="text-base mt-3">
+              Pembuatan struktur dan tata letak website yang responsif
+              menggunakan HTML5, CSS3, dan framework modern seperti Tailwind CSS
+              agar tampil sempurna.
+            </p>
+          </div>
+          <div class="bg-gray-300/40 w-100 h-70 rounded-xl px-6 shadow-xs">
+            <img
+              src="./assets/img/computer.png"
+              alt=""
+              class="w-15 h-15 mt-4"
+            />
+            <h2 class="text-lg font-semibold mt-3">Design System</h2>
+            <p class="text-base mt-3">
+              Memahami cara membuat komponen antarmuka yang konsisten dan dapat
+              digunakan kembali (seperti tombol, kartu, atau bentuk input)
+              berdasarkan design system..
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="soft_skill" class="py-16 md:py-24">
+        <div class="flex flex-col items-center text-center">
+          <h1
+            class="uppercase mt-1 md:mt-3 text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900 leading-tight"
+          >
+            Soft Skill
+          </h1>
+          <p
+            class="mt-2 max-w-4xl md:mt-4 text-base md:text-lg text-gray-700 leading-relaxed text-justify sm:text-center"
+          >
+            Selain keahlian teknis, saya percaya bahwa kemampuan berinteraksi
+            dan beradaptasi sangat penting. Berikut adalah beberapa soft skill
+            yang saya andalkan dalam bekerja dan berkolaborasi.
+          </p>
+        </div>
+        <div class="grid grid-cols-2 place-items-center gap-4 mt-9">
+          <div class="flex flex-col items-center max-w-xs">
+            <div class="p-2 w-11 rounded-full border text-center">
+              <span>1</span>
+            </div>
+            <h2 class="font-medium text-xl mt-2">Kerja Sama Tim</h2>
+            <p class="text-center text-[17px] mt-2">
+              Mampu berkolaborasi aktif dalam kelompok, menghargai sudut pandang
+              rekan tim, dan saling mendukung untuk mencapai tujuan bersama.
+            </p>
+          </div>
+          <div class="flex flex-col items-center max-w-xs">
+            <div class="p-2 w-11 rounded-full border text-center">
+              <span>2</span>
+            </div>
+            <h2 class="font-medium text-xl mt-2">Komunikasi yang baik</h2>
+            <p class="text-center text-[17px] mt-2">
+              Mampu menyampaikan ide, alur kerja, dan informasi secara jelas,
+              serta aktif mendengarkan masukan untuk menjaga kelancaran
+              komunikasi dalam tim.
+            </p>
+          </div>
+          <div class="flex flex-col items-center max-w-xs">
+            <div class="p-2 w-11 rounded-full border text-center">
+              <span>3</span>
+            </div>
+            <h2 class="font-medium text-xl mt-2">Manajemen Waktu</h2>
+            <p class="text-center text-[17px] mt-2">
+              Mampu memprioritaskan tugas dan mengelola waktu kerja secara
+              efisien untuk menyelesaikan setiap proyek sesuai batas waktu yang
+              ditentukan.
+            </p>
+          </div>
+          <div class="flex flex-col items-center max-w-xs">
+            <div class="p-2 w-11 rounded-full border text-center">
+              <span>4</span>
+            </div>
+            <h2 class="font-medium text-xl mt-2">Adaptabilitas</h2>
+            <p class="text-center text-[17px] mt-2">
+              Fleksibel dan mudah menyesuaikan diri dengan perubahan alur kerja,
+              kebutuhan proyek, atau dinamika tim yang baru.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="project" class="py-16 md:py-24">
+        <h1
+          class="uppercase mt-1 md:mt-3 text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900 leading-tight"
+        >
+          Project
+        </h1>
+        <div>
+          <span
+            class="text-xs md:text-sm font-semibold tracking-widest text-gray-500 uppercase"
+            >Proyek 1</span
+          >
+          <h2 class="text-4xl font-medium">Website Sederhana</h2>
+          <div class="flex">
+            <img src="./assets/img/Screenshot 2026-09-06 113922.png" alt="project_1" class="w-1/2">
+            <div>
+              <h2 class="text-3xl">Deskripsi:</h2>
+              <ul>
+                <ol></ol>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
